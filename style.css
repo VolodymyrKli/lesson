@@ -1,29 +1,29 @@
 .main {
     border: 2px solid #000;
     display: inline-block;
+    width: 1100px;
+    height: 1100px;
 }
 
 .board{
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     display: inline-block;
     margin-top: -46px;
+    /* max-height: 100px; */
 }
 
 .board_first{
     display: inline-block;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+    vertical-align: middle;
+    /* max-height: 100px; */
 }
 
 .board_last{
     display: inline-block;
-    border-bottom: 1px solid black ;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
     margin-top: -46px;
+    /* max-height: 100px; */
+    
 }
+
 
 .text {
     width: 100px;
@@ -34,15 +34,15 @@
     vertical-align: middle;
 }
 
-.text_right{
+.text_right{ 
     width: 100px;
     height: 100px;
     font-size: 30px;
     text-align: center;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 24px;
-}
+    margin-left: 5px;
+} 
 
 
 .white {
@@ -59,4 +59,39 @@
     background-color: black;
     display: inline-block;
     margin-right: -4px;
+}
+
+.test_first {
+    display: inline-block;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding-right: 3px;
+}
+
+.test {
+    display: inline-block;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.test_second {
+    display: inline-block;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-right: 3px;
+}
+
+.test_last {
+    display: inline-block;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.footer {
+    margin-top: -46px;
+}
+.cell {
+    display: inline-block;
 }
